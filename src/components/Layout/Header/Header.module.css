@@ -1,0 +1,34 @@
+.header{
+    background-color: var(--color-secondary);
+    height: 8rem;
+    padding: 0 calc(calc(100vw - 75em) / 2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a {
+    color: var(--color-font-primary);
+    font-weight: 900;
+    font-size: 2rem;
+}
+.avatar{
+    width:4rem;
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:75em){
+    .header{
+        padding: 0 5rem;
+    }
+}
+@media (max-width:56.25em){
+    .header{
+        padding: 0 3rem;
+    }
+}
+@media (max-width:37.5em){
+    .header{
+        padding: 0 1.5rem;
+    }
+}

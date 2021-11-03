@@ -1,0 +1,16 @@
+.movie{
+    background-color: var(--color-secondary);
+    border: 2px var(--color-font-secondary) solid;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+.movie:hover{
+    transform: scale(1.05);
+}
+.movie figcaption{
+    padding: 2rem;
+}
+.movie a {
+    color: var(--color-font-primary);
+}

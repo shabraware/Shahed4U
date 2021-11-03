@@ -1,0 +1,22 @@
+.main {
+  width: 100%;
+  max-width: 120rem;
+  min-height: calc(100vh - calc(2 * 8rem));  /*calc(2 * 8rem) is the header and footer height*/
+  margin: 0 auto;
+  padding: 5rem 0 ;
+}
+@media (max-width:75em){
+  .main{
+      padding: 5rem ;
+  }
+}
+@media (max-width:56.25em){
+  .main{
+      padding: 3rem ;
+  }
+}
+@media (max-width:37.5em){
+  .main{
+      padding: 1.5rem;
+  }
+}

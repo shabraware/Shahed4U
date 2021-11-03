@@ -1,0 +1,29 @@
+.details{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    text-align: justify;
+    color: var(--color-gray-light-2);
+}
+.text>*:not(:last-child){
+    margin-bottom: 3rem;
+}
+
+.rating>*:not(:last-child), .info>*:not(:last-child){
+    display: inline-block;
+    margin-right: 2rem;
+}
+.icon{
+    color: var(--color-font-secondary);
+    margin-right: 0.75rem;
+}
+
+@media screen and (max-width:56.25em) {
+    .details{
+        flex-direction: column-reverse;
+    } 
+}

@@ -1,0 +1,24 @@
+.footer{
+    background-color: var(--color-secondary);
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+@media (max-width:75em){
+    .footer{
+        padding: 0 5rem;
+    }
+  }
+  @media (max-width:56.25em){
+    .footer{
+        padding: 0 3rem;
+    }
+  }
+  @media (max-width:37.5em){
+    .footer{
+        padding: 0 1.5rem;
+    }
+  }

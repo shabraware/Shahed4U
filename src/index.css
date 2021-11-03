@@ -1,13 +1,98 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+    /* colors */
+    --color-primary:#0f171e;
+    --color-secondary:#1a242f;
+    --color-white:#fff;
+    --color-black:#000;
+    --color-gray-light-1:#eee;
+    --color-gray-light-2:#ccc;
+    --color-gray-dark-1:#999;
+    --color-gray-dark-2:#777;
+    --color-gray-dark-3:#333;
+    /* font */
+    --color-font-primary:#fff;
+    --color-font-secondary:#79b8f3;
+    --default-font-size:1.6rem;
+    --default-font-weight:500;
+    --default-font-color:var(--color-font-primary);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
+html {
+    font-size: 62.5%;
+}
+/*
+0                : 600px(37.5em)      ==> phone
+600px(37.5em)    : 900px(56.25em)     ==> portrait tablet
+900px(56.25em)   : 1200px(75em)       ==> landscape tablet
+1200px(75em)     : 1800px(112.5em)    ==> desktop (initial design)
+Above 1800px(112.5em)                 ==> large screens
+*/
+/* landscape tablet => 1rem = 9px */
+@media (max-width:75em){
+    html{
+        font-size: 56.25%;
+    }
+}
+/* portrait tablet and phone => 1rem = 8px */
+@media (max-width:56.25em){
+    html{
+        font-size: 56.25%;
+    }
+}
+/* big desktop 1rem => 12px */
+@media (min-width:112.5em){
+    html{
+        font-size: 75%;
+    }
+}
+
+
+body {
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background-color: var(--color-primary);
+}
+
+body {
+    font-family: 'Rubik' , sans-serif;
+    font-size: var(--default-font-size);
+    font-weight: var(--default-font-weight);
+    line-height: 1.7;
+    color:var(--default-font-color);
+}
+
+::selection {
+    background-color: var(--color-primary);
+    color: white;   
+}
+a {
+    text-decoration: none; 
+}
+a:focus {
+    outline: none;
+}
+button {
+    border: none;
+}
+button:focus {
+    outline: none;
+}
+ul {
+    list-style-type: none;
+}
+img {
+    width : 100%;
+}
+
+
+
+
