@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Shahed4U/static/css/main.eaca3afd.chunk.css",
+    "main.js": "/Shahed4U/static/js/main.65caf72b.chunk.js",
+    "main.js.map": "/Shahed4U/static/js/main.65caf72b.chunk.js.map",
+    "runtime-main.js": "/Shahed4U/static/js/runtime-main.24305a0d.js",
+    "runtime-main.js.map": "/Shahed4U/static/js/runtime-main.24305a0d.js.map",
+    "static/js/2.768f37a1.chunk.js": "/Shahed4U/static/js/2.768f37a1.chunk.js",
+    "static/js/2.768f37a1.chunk.js.map": "/Shahed4U/static/js/2.768f37a1.chunk.js.map",
+    "index.html": "/Shahed4U/index.html",
+    "static/css/main.eaca3afd.chunk.css.map": "/Shahed4U/static/css/main.eaca3afd.chunk.css.map",
+    "static/js/2.768f37a1.chunk.js.LICENSE.txt": "/Shahed4U/static/js/2.768f37a1.chunk.js.LICENSE.txt",
+    "static/media/user.109eb920.png": "/Shahed4U/static/media/user.109eb920.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.24305a0d.js",
+    "static/js/2.768f37a1.chunk.js",
+    "static/css/main.eaca3afd.chunk.css",
+    "static/js/main.65caf72b.chunk.js"
+  ]
+}
